@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "JAgf",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Life income",
+    "qDef": "Sum({<Type={\"Life*\"}>} Amount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "numFormatFromTemplate": true,
+    "coloring": {
+      "baseColor": {
+        "color": "#83af9b",
+        "index": 3
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Life income",
+    "description": "",
+    "tags": []
+  }
+}

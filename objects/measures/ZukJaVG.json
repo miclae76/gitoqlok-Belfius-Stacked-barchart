@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "ZukJaVG",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Fees Bank",
+    "qDef": "Sum({<Type={\"Fees bank\"}>} Amount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "numFormatFromTemplate": true,
+    "coloring": {
+      "baseColor": {
+        "color": "#ac4d58",
+        "index": 10
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Fees Bank",
+    "description": "",
+    "tags": []
+  }
+}

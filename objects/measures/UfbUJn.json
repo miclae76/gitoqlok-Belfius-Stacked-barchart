@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "UfbUJn",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Others",
+    "qDef": "Sum({<Type={\"Other*\"}>} Amount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "numFormatFromTemplate": true,
+    "coloring": {
+      "baseColor": {
+        "color": "#b0afae",
+        "index": 13
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Others",
+    "description": "",
+    "tags": []
+  }
+}

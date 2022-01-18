@@ -1,0 +1,52 @@
+{
+  "qInfo": {
+    "qId": "Rfbf",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Type"
+    ],
+    "qFieldLabels": [
+      "Type"
+    ],
+    "title": "Type",
+    "coloring": {
+      "changeHash": "0.22782042449248951",
+      "colorMapRef": "Rfbf"
+    }
+  },
+  "qMetaDef": {
+    "title": "Type",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_Rfbf",
+      "qType": "ColorMap"
+    },
+    "qMeta": {},
+    "colorMap": {
+      "colors": [
+        {
+          "value": "",
+          "baseColor": {
+            "color": "#ffffff",
+            "index": 1
+          }
+        }
+      ],
+      "nul": null,
+      "oth": null,
+      "pal": null,
+      "single": {
+        "color": "#4477aa",
+        "index": -1
+      },
+      "usePal": true,
+      "autoFill": false
+    }
+  }
+}

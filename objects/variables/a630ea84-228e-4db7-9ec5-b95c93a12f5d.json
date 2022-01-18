@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "a630ea84-228e-4db7-9ec5-b95c93a12f5d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "currentName",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Belfius",
+  "qIsScriptCreated": true
+}

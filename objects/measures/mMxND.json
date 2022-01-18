@@ -1,0 +1,34 @@
+{
+  "qInfo": {
+    "qId": "mMxND",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Total",
+    "qDef": "dual(num(Sum(Amount), '###0'), 100)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "' '",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qDec": ",",
+      "qThou": "."
+    },
+    "isCustomFormatted": true,
+    "numFormatFromTemplate": true,
+    "coloring": {
+      "baseColor": {
+        "color": "#ffffff",
+        "index": 1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Total",
+    "description": "",
+    "tags": []
+  }
+}

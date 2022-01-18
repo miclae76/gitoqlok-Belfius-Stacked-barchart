@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "RPhZk",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Non-Life income",
+    "qDef": "Sum({<Type={\"Non*\"}>} Amount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "numFormatFromTemplate": true,
+    "coloring": {
+      "baseColor": {
+        "color": "#99cfcd",
+        "index": 2
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Non-Life income",
+    "description": "",
+    "tags": []
+  }
+}

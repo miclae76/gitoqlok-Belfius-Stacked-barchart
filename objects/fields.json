@@ -1,0 +1,29 @@
+[
+  {
+    "qName": "Amount",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Belfius"
+    ]
+  },
+  {
+    "qName": "Reporting Period",
+    "qTags": [],
+    "qSrcTables": [
+      "Belfius"
+    ]
+  },
+  {
+    "qName": "Type",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Belfius"
+    ]
+  }
+]

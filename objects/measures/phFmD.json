@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "phFmD",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Nil",
+    "qDef": "Sum({<Type={\"Nil*\"}>} Amount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "numFormatFromTemplate": true,
+    "coloring": {
+      "baseColor": {
+        "color": "#e0bd8d",
+        "index": 11
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Nil",
+    "description": "",
+    "tags": []
+  }
+}
