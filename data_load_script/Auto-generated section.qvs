@@ -1,0 +1,60 @@
+///$tab Auto-generated section
+Set dataManagerTables = '','Belfius';
+//This block renames script tables from non generated section which conflict with the names of managed tables
+
+For each name in $(dataManagerTables) 
+    Let index = 0;
+    Let currentName = name; 
+    Let tableNumber = TableNumber(name); 
+    Let matches = 0; 
+    Do while not IsNull(tableNumber) or (index > 0 and matches > 0)
+        index = index + 1; 
+        currentName = name & '-' & index; 
+        tableNumber = TableNumber(currentName) 
+        matches = Match('$(currentName)', $(dataManagerTables));
+    Loop 
+    If index > 0 then 
+            Rename Table '$(name)' to '$(currentName)'; 
+    EndIf; 
+Next; 
+Set dataManagerTables = ;
+
+
+Unqualify *;
+
+[Belfius]:
+LOAD * INLINE 
+[
+Reporting Period,Type,Amount
+2018,Nil,100
+2018,Fees Bank,250
+2018,Life Income,70
+2018,Non-Life income,60
+2018,Other income,-100
+2019,Nil,110
+2019,Fees Bank,270
+2019,Life Income,80
+2019,Non-Life income,50
+2019,Other income,10
+2020,Nil,120
+2020,Fees Bank,240
+2020,Life Income,90
+2020,Non-Life income,70
+2020,Other income,-50
+B 2020,Nil,100
+B 2020,Fees Bank,260
+B 2020,Life Income,90
+B 2020,Non-Life income,60
+](delimiter is ',');
+/*
+
+Concatenate(Belfius)
+LOAD [Reporting Period],
+	 '' as Type,
+     sum(Amount) AS TotalAmount,
+     100 AS Amount
+Resident Belfius
+group by [Reporting Period];
+
+
+*/
